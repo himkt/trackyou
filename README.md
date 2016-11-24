@@ -1,7 +1,14 @@
 # trackyou
 
-visualizer for your progress per day
+How many words did you write today ?
 
+# Requirement
+
+You have to install [pandoc](http://pandoc.org/)
+
+If you have already installed [homebrew](http://brew.sh/), you can install pandoc with
+
+> brew install pandoc
 
 # installation
 
@@ -13,6 +20,6 @@ visualizer for your progress per day
 ```python
 from trackyou.trackyou import TrackYou
 
-ty = TrackYou(prefix + 'path_to_tex', 'hoge', prefix + 'dir_output' + '/')
+ty = TrackYou(target=prefix + 'path_to_tex', title='hoge', output_dir=prefix + 'dir_output' + '/')
 ty.report()
 ````
