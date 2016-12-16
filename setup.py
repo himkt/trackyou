@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "trackyou",
-    version = "0.0.3",
+    version = "0.0.4",
     author = 'himkt',
     author_email = 'himkt@klis.tsukuba.ac.jp',
     description = 'visualize your progress',
